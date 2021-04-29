@@ -18,10 +18,19 @@ public class MainMethod {
     }
     //we have to create method for find the index at which the element is found if not return -1
     public int findindex(int[] arr,int searchElement){
+        for (int i = 0; i < arr.length; i++) {
+            if(arr[i]==searchElement){
+                return i;
+            }
+        }
         return-1;
     }
     //find the index of nth occurence of given element
     public int findNthIndex(int[] arr,int givenElement,int n){
+        for (int i = 0; i < arr.length; i++) {
+            if(arr[i]==givenElement){
+            }
+        }
         return -1;
     }
 
